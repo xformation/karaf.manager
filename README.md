@@ -10,10 +10,11 @@ Karaf Manager application interface using jolokia api to run various operations 
 Install apache-karaf-4.2.2
 
 Run following commands to install jolokia plugin into karaf
+Help url: https://jolokia.org/reference/html/protocol.html#request-response
 
 	apache-karaf-4.2.2\bin\start
 	# Make sure you have this plugin downloaded into your local repo
-	karaf@root()> bundle:install -s mvn:org.jolokia/jolokia-osgi/1.5.0
+	karaf@root()> bundle:install -s mvn:org.jolokia/jolokia-osgi/1.6.0
 
 Now restart the karaf application by running 
 
